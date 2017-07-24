@@ -15,7 +15,7 @@ module.exports = {
   devtool: 'source-map',
   entry: entries,
   output: {
-      path: '/Users/jstockdale/Sites/the-ultimate-war-press-theme/',
+      path: __dirname + '/dist',
       publicPath: '/',
       filename: "[name]-bundle.js"
   },

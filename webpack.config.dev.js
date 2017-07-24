@@ -14,8 +14,6 @@ const GLOBALS = {
 };
 
 module.exports = {
-  //amd?, bail?, cache?, context?, dependencies?, devServer?, devtool?, entry, externals?, loader?, module?, name?, node?, output?, performance?, plugins?, profile?, recordsInputPath?, recordsOutputPath?, recordsPath?, resolve?, resolveLoader?, stats?, target?, watch?, watchOptions?
-
   devtool: 'cheap-module-eval-source-map',
   entry: entries,
   target: 'web',

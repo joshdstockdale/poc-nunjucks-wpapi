@@ -1,6 +1,6 @@
 <h3>List</h3>
 <ul>
   {% for item in data %}
-      <li><a href="./{{ item.slug }}">{{ item.title.rendered }}</a></li>
+      <li><a href="./{{ item.slug }}">{{ item.title.rendered | safe }}</a></li>
   {% endfor %}
 </ul>
