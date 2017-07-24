@@ -1,0 +1,1 @@
+<header>Global Header</header>

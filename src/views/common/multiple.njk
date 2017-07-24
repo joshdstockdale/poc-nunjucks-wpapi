@@ -1,0 +1,6 @@
+<h3>List</h3>
+<ul>
+  {% for item in data %}
+      <li><a href="./{{ item.slug }}">{{ item.title.rendered }}</a></li>
+  {% endfor %}
+</ul>

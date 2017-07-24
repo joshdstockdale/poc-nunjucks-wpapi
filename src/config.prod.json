@@ -1,0 +1,13 @@
+{
+  "title":"Decision Magazine",
+  "description":"The Evangelical Voice for Today",
+  "language":"en",
+  "default_category":"1",
+  "default_post_format":"0",
+  "posts_per_page":"12",
+  "permalinks":"/%postname%/",
+  "default_home_page":"10",
+  "default_posts_page":"48401",
+  "url":"https://whateverprod.com",
+  "data_url": "/wordpress/wp-json/wp/v2/"
+}
